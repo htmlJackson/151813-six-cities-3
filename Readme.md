@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов» [![Build status][travis-image]][travis-url]
 
 * Студент: [Евгений Бервяченок](https://up.htmlacademy.ru/react/3/user/151813).
-* Наставник: `Неизвестно`.
+* Наставник: [Арсений Ильяшов](https://htmlacademy.ru/profile/id40943).
 
 ---
 
