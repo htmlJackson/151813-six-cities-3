@@ -226,6 +226,7 @@ exports[`Render App 1`] = `
           >
             <article
               className="cities__place-card place-card"
+              onMouseEnter={[Function]}
             >
               <div
                 className="place-card__mark"
@@ -244,7 +245,7 @@ exports[`Render App 1`] = `
                     alt="Place image"
                     className="place-card__image"
                     height="200"
-                    src="img/apartment-01.jpg"
+                    src="str-1.jpg"
                     width="260"
                   />
                 </a>
@@ -261,7 +262,8 @@ exports[`Render App 1`] = `
                     <b
                       className="place-card__price-value"
                     >
-                      €120
+                      €
+                      111
                     </b>
                     <span
                       className="place-card__price-text"
@@ -298,7 +300,7 @@ exports[`Render App 1`] = `
                     <span
                       style={
                         Object {
-                          "width": "80%",
+                          "width": "calc(20% * 1)",
                         }
                       }
                     />
@@ -316,18 +318,19 @@ exports[`Render App 1`] = `
                     href="#"
                     onClick={[Function]}
                   >
-                    city-1
+                    name-1
                   </a>
                 </h2>
                 <p
                   className="place-card__type"
                 >
-                  Apartment
+                  type-1
                 </p>
               </div>
             </article>
             <article
               className="cities__place-card place-card"
+              onMouseEnter={[Function]}
             >
               <div
                 className="place-card__mark"
@@ -346,7 +349,7 @@ exports[`Render App 1`] = `
                     alt="Place image"
                     className="place-card__image"
                     height="200"
-                    src="img/apartment-01.jpg"
+                    src="str-2.jpg"
                     width="260"
                   />
                 </a>
@@ -363,7 +366,8 @@ exports[`Render App 1`] = `
                     <b
                       className="place-card__price-value"
                     >
-                      €120
+                      €
+                      222
                     </b>
                     <span
                       className="place-card__price-text"
@@ -372,7 +376,7 @@ exports[`Render App 1`] = `
                     </span>
                   </div>
                   <button
-                    className="place-card__bookmark-button button"
+                    className="place-card__bookmark-button place-card__bookmark-button--active button"
                     type="button"
                   >
                     <svg
@@ -400,7 +404,7 @@ exports[`Render App 1`] = `
                     <span
                       style={
                         Object {
-                          "width": "80%",
+                          "width": "calc(20% * 2)",
                         }
                       }
                     />
@@ -418,26 +422,20 @@ exports[`Render App 1`] = `
                     href="#"
                     onClick={[Function]}
                   >
-                    city-2
+                    name-2
                   </a>
                 </h2>
                 <p
                   className="place-card__type"
                 >
-                  Apartment
+                  type-2
                 </p>
               </div>
             </article>
             <article
               className="cities__place-card place-card"
+              onMouseEnter={[Function]}
             >
-              <div
-                className="place-card__mark"
-              >
-                <span>
-                  Premium
-                </span>
-              </div>
               <div
                 className="cities__image-wrapper place-card__image-wrapper"
               >
@@ -448,7 +446,7 @@ exports[`Render App 1`] = `
                     alt="Place image"
                     className="place-card__image"
                     height="200"
-                    src="img/apartment-01.jpg"
+                    src="str-3.jpg"
                     width="260"
                   />
                 </a>
@@ -465,7 +463,8 @@ exports[`Render App 1`] = `
                     <b
                       className="place-card__price-value"
                     >
-                      €120
+                      €
+                      333
                     </b>
                     <span
                       className="place-card__price-text"
@@ -502,7 +501,7 @@ exports[`Render App 1`] = `
                     <span
                       style={
                         Object {
-                          "width": "80%",
+                          "width": "calc(20% * 3)",
                         }
                       }
                     />
@@ -520,13 +519,13 @@ exports[`Render App 1`] = `
                     href="#"
                     onClick={[Function]}
                   >
-                    city-3
+                    name-3
                   </a>
                 </h2>
                 <p
                   className="place-card__type"
                 >
-                  Apartment
+                  type-3
                 </p>
               </div>
             </article>

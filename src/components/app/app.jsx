@@ -5,13 +5,13 @@ import {Main} from "../main/main.jsx";
 
 const onNameClick = () => true;
 
-const App = (props) => {
-  return <Main placesCount={props.placesCount} places={props.places} onNameClick={onNameClick} />;
+const App = ({placesCount, offers}) => {
+  return <Main placesCount={placesCount} offers={offers} onNameClick={onNameClick} />;
 };
 
 App.propTypes = {
-  places: PropTypes.array.isRequired,
   placesCount: PropTypes.number.isRequired,
+  offers: PropTypes.PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export {App};
