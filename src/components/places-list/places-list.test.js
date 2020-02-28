@@ -1,9 +1,9 @@
 import React from "react";
 import renderer from "react-test-renderer";
-import {App} from "./app.jsx";
+import {PlacesList} from "./places-list.jsx";
 
-it(`Render App`, () => {
-  const mocOffers = [
+it(`Render PlacesList`, () => {
+  const mocPlacesListOffers = [
     {
       type: `type-1`,
       name: `name-1`,
@@ -34,7 +34,7 @@ it(`Render App`, () => {
   ];
 
   const tree = renderer
-    .create(<App placesCount={3} offers={mocOffers} onNameClick={jest.fn()} />)
+    .create(<PlacesList offers={mocPlacesListOffers} onNameClick={jest.fn()} />)
     .toJSON();
 
   expect(tree).toMatchSnapshot();
