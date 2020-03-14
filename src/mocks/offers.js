@@ -6,7 +6,8 @@ export default [
     picSrc: `img/apartment-01.jpg`,
     stars: 4,
     isPremium: true,
-    isBookmarked: false
+    isBookmarked: false,
+    coords: [52.3909553943508, 4.85309666406198],
   },
   {
     type: `Private room`,
@@ -15,7 +16,8 @@ export default [
     picSrc: `img/room.jpg`,
     stars: 2.5,
     isPremium: true,
-    isBookmarked: false
+    isBookmarked: false,
+    coords: [52.369553943508, 4.85309666406198],
   },
   {
     type: `Apartment`,
@@ -24,7 +26,8 @@ export default [
     picSrc: `img/apartment-02.jpg`,
     stars: 4.5,
     isPremium: false,
-    isBookmarked: true
+    isBookmarked: true,
+    coords: [52.3909553943508, 4.929309666406198],
   },
   {
     type: `Apartment`,
@@ -33,6 +36,7 @@ export default [
     picSrc: `img/apartment-03.jpg`,
     stars: 3,
     isPremium: false,
-    isBookmarked: false
+    isBookmarked: false,
+    coords: [52.3809553943508, 4.939309666406198],
   },
 ];

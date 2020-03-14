@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import {PlacesList} from "../places-list/places-list.jsx";
+import {Map} from "../map/map.jsx";
 
 const Main = ({placesCount, offers, onNameClick}) => {
   return (
@@ -98,7 +99,7 @@ const Main = ({placesCount, offers, onNameClick}) => {
               <PlacesList offers={offers} onNameClick={onNameClick} />
             </section>
             <div className="cities__right-section">
-              <section className="cities__map map"></section>
+              <Map places={offers} />
             </div>
           </div>
         </div>
