@@ -534,8 +534,9 @@ exports[`Render Main 1`] = `
         <div
           className="cities__right-section"
         >
-          <section
+          <div
             className="cities__map map"
+            id="map"
           />
         </div>
       </div>
