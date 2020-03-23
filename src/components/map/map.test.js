@@ -19,7 +19,7 @@ const mockCoordsArray = [
 ];
 
 it(`Map correctly renders after relaunch`, () => {
-  const tree = renderer.create(<Map places={mockCoordsArray} />).toJSON();
+  const tree = renderer.create(<Map places={mockCoordsArray} />, {createNodeMock: () => document.createElement(`div`)}).toJSON();
 
   expect(tree).toMatchSnapshot();
 });

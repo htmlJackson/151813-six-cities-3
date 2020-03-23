@@ -34,7 +34,7 @@ it(`Render App`, () => {
   ];
 
   const tree = renderer
-    .create(<App placesCount={3} offers={mocOffers} onNameClick={jest.fn()} />)
+    .create(<App placesCount={3} offers={mocOffers} onNameClick={jest.fn()} />, {createNodeMock: () => document.createElement(`div`)})
     .toJSON();
 
   expect(tree).toMatchSnapshot();
